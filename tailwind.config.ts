@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        terminal: {
+          bg: "hsl(var(--terminal-bg))",
+          card: "hsl(var(--terminal-card))",
+          border: "hsl(var(--terminal-border))",
+          text: "hsl(var(--terminal-text))",
+          muted: "hsl(var(--terminal-muted))",
+          green: "hsl(var(--terminal-green))",
+          accent: "hsl(var(--terminal-accent))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,6 +89,9 @@ export default {
             height: "0",
           },
         },
+      },
+      boxShadow: {
+        terminal: "0 0 15px -3px hsl(142 70% 45% / 0.15)",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
